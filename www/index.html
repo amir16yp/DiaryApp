@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- Message Box Overlay -->
+    <div class="message-box-overlay" id="messageBoxOverlay">
+        <div class="message-box">
+            <div class="message-box-text" id="messageBoxText"></div>
+            <div class="message-box-buttons">
+                <button class="message-box-button confirm" id="messageBoxConfirm">Yes</button>
+                <button class="message-box-button cancel" id="messageBoxCancel">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>My Diary</h1>
+            <button class="theme-toggle" id="themeToggle">
+                <span class="toggle-icon">🌞</span>
+                <span class="toggle-text">Switch Theme</span>
+            </button>
+        </div>
+        <textarea id="diaryEntry" placeholder="Write your diary entry here..."></textarea>
+        <button id="saveEntry">Save Entry</button>
+        <div class="entries" id="entries"></div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

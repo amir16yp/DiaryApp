@@ -1,0 +1,31 @@
+{
+  "name": "org.amir16yp.diary",
+  "displayName": "Diary",
+  "version": "1.0.0",
+  "description": "Diary App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": {
+    "name": "Amir Y. Perehodnik",
+    "email": "myrprhwdnyq@gmail.com",
+    "url": "https://github.com/amir16yp/"
+  },
+  "license": "Apache-2.0",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-file": {}
+    }
+  },
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-plugin-file": "^8.1.3"
+  }
+}

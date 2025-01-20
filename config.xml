@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.amir16yp.diary" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Diary</name>
+    <description>Diary App</description>
+    <author email="myrprhwdnyq@gmail.com" href="https://github.com/amir16yp/">
+        Amir Y. Perehodnik
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <platform name="android">
+        <!-- Android Icons -->
+        <icon src="res/android/drawable-ldpi/drawable-ldpi-icon.png" density="ldpi" />
+        <icon src="res/android/drawable-mdpi/drawable-mdpi-icon.png" density="mdpi" />
+        <icon src="res/android/drawable-hdpi/drawable-hdpi-icon.png" density="hdpi" />
+        <icon src="res/android/drawable-xhdpi/drawable-xhdpi-icon.png" density="xhdpi" />
+        <icon src="res/android/drawable-xxhdpi/drawable-xxhdpi-icon.png" density="xxhdpi" />
+        <icon src="res/android/drawable-xxxhdpi/drawable-xxxhdpi-icon.png" density="xxxhdpi" />
+    </platform>
+
+    <platform name="ios">
+        <!-- iOS Icons -->
+        <icon src="res/ios/icon-20.png" width="20" height="20" />
+        <icon src="res/ios/icon-29.png" width="29" height="29" />
+        <icon src="res/ios/icon-40.png" width="40" height="40" />
+        <icon src="res/ios/icon-60.png" width="60" height="60" />
+        <icon src="res/ios/icon-76.png" width="76" height="76" />
+    </platform>
+</widget>
